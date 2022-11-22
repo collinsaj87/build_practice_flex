@@ -7,9 +7,6 @@ html, body { /* pushes styles to edges */
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-}
-
-.top {
     justify-content: space-around;
 }
 
@@ -26,7 +23,7 @@ html, body { /* pushes styles to edges */
 
 .logo {
     font-size: 24px;
-    padding-left: 40px;
+    padding-left: 100px;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -41,11 +38,11 @@ ul {
     color: #E5E7EB;
     font-size: 18px;
     margin-left: auto;
-    padding-right: 40px
+    padding-right: 100px
 }
 
 img {
-    width: 300px;
+    width: 350px;
     height: 200px;
     margin-left: auto;
     padding-right: 40px;
@@ -55,5 +52,10 @@ img {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 0;
 
+}
+
+.description {
+    flex: 2 1 auto
 }
