@@ -104,3 +104,29 @@ button {
 .text {
     color: #1F2937
 }
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.quote.container {
+    flex-direction: column;
+    max-width: 800px;
+    
+}
+
+.quote.text {
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.quote.reference {
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 0;
+    align-self: flex-end;
+}
