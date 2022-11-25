@@ -10,6 +10,10 @@ html, body { /* pushes styles to edges */
     justify-content: space-around;
 }
 
+.top {
+    padding-bottom: 50px;
+}
+
 .top.left {
     display: flex;
     flex-direction: column;
@@ -58,4 +62,45 @@ img {
 
 .description {
     flex: 2 1 auto
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px; 
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    width: 100px;
+}
+
+.middle {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.couple {
+    max-width: 200px;
+}
+
+.text {
+    color: #1F2937
 }
