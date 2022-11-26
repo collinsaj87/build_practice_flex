@@ -10,6 +10,8 @@ html, body { /* pushes styles to edges */
     justify-content: space-around;
 }
 
+
+
 .top {
     padding-bottom: 50px;
 }
@@ -69,7 +71,6 @@ button {
     border-radius: 8px; 
     color: #F9FAF8;
     background-color: #3882F6;
-    border-color: #3882F6;
     width: 100px;
 }
 
@@ -129,4 +130,31 @@ button {
     font-size: 28px;
     margin-top: 0;
     align-self: flex-end;
+}
+
+.bottom {
+    padding: 100px;
+}
+
+.signbox {
+    max-width: 800px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+strong {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#lowbutton {
+    height: 50px;
+    border-color: #E5E7EB;
+    align-self: center;
 }
