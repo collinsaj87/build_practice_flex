@@ -1,6 +1,7 @@
 html, body { /* pushes styles to edges */
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 } 
 
 .header, .footer, .top {
@@ -10,7 +11,9 @@ html, body { /* pushes styles to edges */
     justify-content: space-around;
 }
 
-
+.footer {
+    padding: 50px;
+}
 
 .top {
     padding-bottom: 50px;
